@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poiret+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  font-family: "Nunito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color:  #dfe4ff;
+  background-color: #463457;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #463457;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 
+    2px 12px 20px 4px rgba(0, 0, 0, 0.3),
+    -6px -6px 12px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+.addTask {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.addInput {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addButton {
+  padding: 10px 20px;
+  background-color: #3f68db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.addButton:hover {
+  background-color: #25418f;
+}
+
+.resumen {
+  margin-bottom: 20px;
+}
+
+.tableTasks {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tableTasks th, .tableTasks td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #716491;
+}
+
+.tableTasks th {
+  background-color: #f2f2f2;
+  color: rgb(0, 19, 70);
+}
+
+.completed {
+  text-decoration: line-through;
+  color: rgb(0, 19, 70);
+}
+
+.fa-circle-minus {
+  color: rgb(247, 72, 72);
+  cursor: pointer;
+}
+
+.fa-circle-minus:hover {
+  color: darkred;
+}
+
+.checkbox {
+  cursor: pointer;
+}

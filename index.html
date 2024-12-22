@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ToDo List</h1>
+        <div class="addTask">
+            <input type="text" class="addInput" placeholder="Nueva tarea">
+            <button class="addButton">Agregar</button>
+        </div>
+        <div class="resumen">
+            <p>Total: <span id="total">0</span></p>
+            <p>Realizadas: <span id="done">0</span></p>
+        </div>
+        <table class="tableTasks">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th>Estado</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="tasks">
+                <!-- Aqui se agregan las tareas con carga dinámica -->
+            </tbody>
+        </table>
+    </div>
+    <script src="https://kit.fontawesome.com/f5bdbb41e0.js" crossorigin="anonymous"></script>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
